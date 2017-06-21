@@ -16,7 +16,7 @@ public interface FileComponent {
         throw new UnsupportedOperationException("不支持此操作");
     }
 
-    default void getChild(int i) {
+    default FileComponent getChild(int i) {
         throw new UnsupportedOperationException("不支持此操作");
     }
 }
