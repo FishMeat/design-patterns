@@ -1,2 +1,2 @@
 # design-patterns
-java设计模式
+java-设计模式
