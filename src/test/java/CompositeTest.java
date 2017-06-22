@@ -5,7 +5,7 @@ import org.junit.Test;
  * @author sggb
  * @since 2017/6/21
  */
-public class compositeTest {
+public class CompositeTest {
 
     @Test
     public void test() {
