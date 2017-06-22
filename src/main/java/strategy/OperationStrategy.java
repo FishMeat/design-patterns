@@ -8,5 +8,5 @@ package strategy;
  */
 public interface OperationStrategy {
 
-    double operation(double a, double b);
+    double compute(double a, double b);
 }
