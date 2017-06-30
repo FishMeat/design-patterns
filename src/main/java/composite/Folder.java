@@ -11,7 +11,7 @@ public class Folder implements FileComponent {
 
     private String name;
 
-    List<FileComponent> fileComponents;
+    private List<FileComponent> fileComponents;
 
     public Folder(String name) {
         this.name = name;
