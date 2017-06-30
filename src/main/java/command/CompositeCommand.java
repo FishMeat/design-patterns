@@ -20,10 +20,12 @@ public class CompositeCommand implements Command {
     }
 
     public void add(Command command) {
+        System.out.println("增加命令");
         compositeCommands.add(command);
     }
 
     public void remove(Command command) {
+        System.out.println("移除命令");
         compositeCommands.remove(command);
     }
 }
