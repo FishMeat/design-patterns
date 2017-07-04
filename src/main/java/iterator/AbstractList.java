@@ -5,11 +5,11 @@ import java.util.ArrayList;
 /**
  * Created by sggb on 2017/7/4.
  */
-public class List<T> implements Aggregate<T> {
+public abstract class AbstractList<T> implements Aggregate<T> {
 
     private final java.util.List<T> list;
 
-    public List() {
+    public AbstractList() {
         list = new ArrayList<>();
     }
 
@@ -24,9 +24,7 @@ public class List<T> implements Aggregate<T> {
     }
 
     @Override
-    public Iterator<T> createIterator() {
-        return new AfterIterator<>(this);
-    }
+    public abstract Iterator<T> createIterator();
 
     @Override
     public int length() {
