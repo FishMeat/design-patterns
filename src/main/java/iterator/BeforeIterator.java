@@ -11,12 +11,12 @@ public class BeforeIterator<T> implements Iterator<T> {
 
     public BeforeIterator(Aggregate aggregate) {
         this.aggregate = aggregate;
-        index = aggregate.length();
+        index = aggregate.length() - 1;
     }
 
     @Override
     public void first() {
-        index = aggregate.length();
+        index = aggregate.length() - 1;
     }
 
     @Override
