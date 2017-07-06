@@ -6,8 +6,10 @@ package visitor;
 public interface Visitor {
 
     default void visitProductA(ProductA productA) {
+        System.out.println(0);
     }
 
     default void visitProductB(ProductB productB) {
+        System.out.println(0);
     }
 }
