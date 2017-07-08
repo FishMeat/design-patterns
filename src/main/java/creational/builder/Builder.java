@@ -5,7 +5,7 @@ package creational.builder;
  */
 public interface Builder {
 
-    Builder BuildName(String name);
+    Builder BuildName();
 
     Builder BuildColor(String colorName);
 
