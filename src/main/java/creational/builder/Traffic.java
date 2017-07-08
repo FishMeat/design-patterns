@@ -5,7 +5,7 @@ package creational.builder;
  */
 public class Traffic {
 
-    <T> T createTraffic(Builder builder) {
+    public <T> T createTraffic(Builder builder) {
         return builder.BuildName().BuildColor("绿色").getTraffic();
     }
 }
