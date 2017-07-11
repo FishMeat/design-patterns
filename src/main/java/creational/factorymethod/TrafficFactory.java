@@ -7,7 +7,7 @@ public abstract class TrafficFactory {
 
     abstract Traffic newInstance();
 
-    Traffic getTraffic() {
+    public Traffic getTraffic() {
         return newInstance();
     }
 }
