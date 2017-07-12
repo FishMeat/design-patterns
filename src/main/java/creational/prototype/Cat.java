@@ -12,7 +12,7 @@ public class Cat implements Person {
 
     @Override
     public Person clone() {
-        return null;
+        return new Cat();
     }
 
     @Override
