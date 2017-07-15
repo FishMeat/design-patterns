@@ -1,23 +1,25 @@
+package structural;
+
 import org.junit.Test;
 import structural.composite.*;
+import structural.decorator.PromptDecorator;
+import structural.decorator.StarDecorator;
 
 /**
- * @author sggb
- * @since 2017/6/21
+ * Created by sggb on 2017/6/24.
  */
-public class CompositeTest {
-
+public class DecoratorTest {
     @Test
     public void test() {
-        FileComponent text = new TextFile("文本");
+        FileComponent text = new StarDecorator(new TextFile("文本"));
         FileComponent image = new ImageFile("图片");
-        FileComponent video = new VideoFile("视频");
+        FileComponent video = new PromptDecorator(new VideoFile("视频"));
 
         text.showName();
         image.showName();
         video.showName();
 
-        FileComponent folder = new Folder("文件夹");
+        FileComponent folder = new StarDecorator(new PromptDecorator(new Folder("文件夹")));
         folder.add(text);
         folder.add(image);
         folder.add(video);

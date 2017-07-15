@@ -1,3 +1,5 @@
+package structural;
+
 import org.junit.Test;
 import structural.bridge.*;
 
