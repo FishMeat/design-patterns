@@ -1,7 +1,7 @@
-import composite.*;
-import decorator.PromptDecorator;
-import decorator.StarDecorator;
 import org.junit.Test;
+import structural.composite.*;
+import structural.decorator.PromptDecorator;
+import structural.decorator.StarDecorator;
 
 /**
  * Created by sggb on 2017/6/24.

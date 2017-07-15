@@ -1,6 +1,6 @@
-package decorator;
+package structural.decorator;
 
-import composite.FileComponent;
+import structural.composite.FileComponent;
 
 /**
  * Created by sggb on 2017/6/24.

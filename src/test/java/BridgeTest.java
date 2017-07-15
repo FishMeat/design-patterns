@@ -1,5 +1,5 @@
-import bridge.*;
 import org.junit.Test;
+import structural.bridge.*;
 
 /**
  * Created by sggb on 2017/6/28.

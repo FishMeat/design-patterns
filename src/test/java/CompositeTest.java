@@ -1,5 +1,5 @@
-import composite.*;
 import org.junit.Test;
+import structural.composite.*;
 
 /**
  * @author sggb
