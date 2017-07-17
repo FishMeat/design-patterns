@@ -15,4 +15,10 @@ public class Facade {
         this.systemB = new SystemB();
         this.systemC = new SystemC();
     }
+
+    public void operation() {
+        systemA.operationA();
+        systemB.operationB();
+        systemC.operationC();
+    }
 }
