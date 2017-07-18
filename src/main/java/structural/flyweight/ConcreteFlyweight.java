@@ -12,6 +12,7 @@ public class ConcreteFlyweight implements Flyweight {
 
     @Override
     public void operation(int exStatus) {
-        System.console().printf("%d, %d\n", inStatus, exStatus);
+        System.out.println(inStatus);
+        System.out.println(exStatus);
     }
 }
