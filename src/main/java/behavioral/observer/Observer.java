@@ -1,7 +1,7 @@
 package behavioral.observer;
 
 public abstract class Observer {
-    protected abstract Subject subject();
+    protected Subject subject;
 
     public abstract void update();
 }
